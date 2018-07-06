@@ -42,4 +42,8 @@ We'll get into what this all means in a second but what we are basically saying 
 
 We then print out (log) a phrase with that variable into the console.
 
+All statements are comprised of expressions.
+
+<iframe height="400px" width="100%" src="https://repl.it/@erikreyna/js-002?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 
