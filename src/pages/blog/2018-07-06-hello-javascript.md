@@ -1,6 +1,6 @@
 ---
 contentType: blog
-path: js/hello-javascript
+path: /js/hello-javascript
 title: Hello JavaScript
 date: '2018-07-06T11:13:10-04:00'
 attachments:
