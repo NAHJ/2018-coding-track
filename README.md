@@ -52,18 +52,3 @@ You can quickly load any theme from [bootswatch](https://bootswatch.com/) by edi
 There's 2 lines to change.
 
 You can also comment/uncomment lines in that file to customize exactly what parts of bootstrap are loaded.
-
-////////////
-
-TODO:
-
-Set up website on Netlify - E
-Check with Lazaro Gamio again about participating in the sessions, let him know about what is available for teaching - E
-Break down classes into a more somethign structure fix later
-Think Like a Programmer - C
-¡Hola Mundo! Welcome to the world of HTML + CSS - C
-Hello Javascript - E
-Javascript and Beyond - E
-Reach out to Robert about budget again - E and cc: C
-Figure out what the js repl online is called - E
-maybe use those for embeds

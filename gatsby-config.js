@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Blog",
-    author: "konsumer",
+    title: "NAHJ 2018 Coding Track",
+    author: "Carla Astudillo + Erik Reyna",
     authorLink: "https://github.com/erikreyna",
-    disqus: "false" // put your disqus ID here
+    disqus: false // put your disqus ID here
   },
   plugins: [
     {
@@ -11,13 +11,6 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name: "pages"
-      }
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: `${__dirname}/src/examples`,
-        name: "examples"
       }
     },
     {

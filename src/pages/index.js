@@ -1,26 +1,41 @@
-import React from 'react'
-import { Container, Card, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap'
-import Link from 'gatsby-link'
-import graphql from 'graphql'
+import React from "react";
+import {
+  Container,
+  Card,
+  CardText,
+  CardBody,
+  CardTitle,
+  CardSubtitle
+} from "reactstrap";
+import Link from "gatsby-link";
+import graphql from "graphql";
 
 const IndexPage = ({ data }) => {
-  const posts = data.allMarkdownRemark.edges.filter(post => !post.node.frontmatter.hidden && post.node.frontmatter.contentType === 'blog')
+  const posts = data.allMarkdownRemark.edges.filter(
+    post =>
+      !post.node.frontmatter.hidden &&
+      post.node.frontmatter.contentType === "blog"
+  );
   return (
     <Container>
       {posts.map(({ node: post }) => (
-        <Card style={{marginBottom: 10}} key={post.id}>
+        <Card style={{ marginBottom: 10 }} key={post.id}>
           <CardBody>
-            <CardTitle><Link to={post.frontmatter.path}>{post.frontmatter.title}</Link></CardTitle>
-            <CardSubtitle style={{marginBottom: 10}}>{post.frontmatter.date}</CardSubtitle>
+            <CardTitle>
+              <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+            </CardTitle>
+            <CardSubtitle style={{ marginBottom: 10 }}>
+              {post.frontmatter.date}
+            </CardSubtitle>
             <CardText>{post.excerpt}</CardText>
           </CardBody>
         </Card>
-    ))}
+      ))}
     </Container>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexQuery {
@@ -34,10 +49,9 @@ export const pageQuery = graphql`
             contentType
             date(formatString: "MMMM DD, YYYY")
             path
-            hidden
           }
         }
       }
     }
   }
-`
+`;
