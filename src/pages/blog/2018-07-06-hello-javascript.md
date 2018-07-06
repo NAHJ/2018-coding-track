@@ -38,6 +38,8 @@ Here is an example of a statement in JavaScript.
 
 <iframe height="400px" width="100%" src="https://repl.it/@erikreyna/js-001?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-We'll get into what this all means in a second but what we are basically saying here is, hey, take this number, 42, and assign it to a variable called meaningOfLife.
+We'll get into what this all means in a second but what we are basically saying here is, hey, we have a, which equals 1, and b, which equals 2, now let's add them and store that total into c.
 
 We then print out (log) a phrase with that variable into the console.
+
+
