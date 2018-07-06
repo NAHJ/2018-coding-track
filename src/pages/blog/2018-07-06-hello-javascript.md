@@ -6,7 +6,7 @@ date: '2018-07-06T11:13:10-04:00'
 attachments:
   - filename: /files/js.jpg
 related:
-  - {}
+  - post: /welcome
 ---
 *What do you think when someone says, programming?*
 
