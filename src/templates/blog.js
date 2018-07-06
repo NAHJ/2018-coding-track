@@ -68,9 +68,6 @@ export const pageQuery = graphql`
         attachments {
           filename
         }
-        related {
-          post
-        }
       }
     }
 
