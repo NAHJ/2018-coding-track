@@ -14,9 +14,6 @@ const findNode = (path, data) =>
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data;
-  const related = post.frontmatter.related
-    ? post.frontmatter.related.map(r => findNode(r.post, data))
-    : [];
   return (
     <div>
       <Helmet title={`Blog | ${post.frontmatter.title}`}>
