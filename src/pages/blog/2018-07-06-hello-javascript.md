@@ -48,5 +48,7 @@ What is an expression? An expression is any number, variable, identifier, and so
 
 When you write a letter (string), a number, a value (identifier), etc, you're telling the program that there's meaning behind those expressions, it's up to us to know what it is that we are trying to convey, using the correct syntax and grammar.
 
+Let's break down and annotate the previous example with this in mind.
+
 <iframe height="400px" width="100%" src="https://repl.it/@erikreyna/js-002?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
