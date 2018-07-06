@@ -2,7 +2,7 @@
 contentType: blog
 path: /welcome
 title: Welcome
-date: '2018-07-01T00:00:00-04:00'
+date: '2018-07-02T00:00:00-04:00'
 attachments:
   - filename: /files/js.jpg
 related:
