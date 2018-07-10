@@ -63,3 +63,9 @@ Depending on how you look at it, it can be 41 or 60. But there is only one corre
 In grade school they usually teach this by using a mnemonic, PEMDAS. PEMDAS stands for Please Excuse My Dear Aunt Sally, where P stands for Parentheses, E stands for Exponents, M stands for Multiplication, D stands for Division, A stands for Addition and S stands for Subtraction.
 
 So looking at the example again, which one is correct?
+
+41! The multiplication goes first, then the addition, so b * c, then a + the total of b * c.
+
+In other words,  2 * 20 + 1, see how we moved the multiplication to the beginning?
+
+TODO: [OPERATORS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators "MDN - Expressions and Operators")
