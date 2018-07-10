@@ -52,3 +52,14 @@ Let's break down and annotate the previous example with this in mind.
 
 <iframe height="400px" width="100%" src="https://repl.it/@erikreyna/js-002?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
+Let's make this example a bit more complicated, let's introduce a bit of complexity to this example.
+
+Looking at this, what do you think the answer will be? You can cheat and run the example if you want.
+
+<iframe height="400px" width="100%" src="https://repl.it/@erikreyna/js-003?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+Depending on how you look at it, it can be 41 or 60. But there is only one correct answer because of something that is called [Operator Precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence "MDN - Operator Precedence"), also known as Order of Operations.
+
+In grade school they usually teach this by using a mnemonic, PEMDAS. PEMDAS stands for Please Excuse My Dear Aunt Sally, where P stands for Parentheses, E stands for Exponents, M stands for Multiplication, D stands for Division, A stands for Addition and S stands for Subtraction.
+
+So looking at the example again, which one is correct?
