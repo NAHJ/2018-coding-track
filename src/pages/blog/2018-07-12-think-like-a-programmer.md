@@ -71,7 +71,7 @@ They are a directive to a computer program acting as an interpreter of some kind
 
 > **Add Olive Oil in to a cooking pan.**
 
-document.getElementById("cooking_pan").innerHTML = "Olive Oil";
+<iframe height="300px" width="100%" src="https://repl.it/@CarlaAstudillo/Statementsnippet?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Declarations
 
@@ -79,7 +79,7 @@ Determines the name and data type of a variable that you are defining
 
 > **The boiling point of the water is 212 degrees Fahrenheit**
 
-var boiling_point = 212;
+<iframe height="300px" width="100%" src="https://repl.it/@CarlaAstudillo/variablesnippet?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Logical Operators
 
@@ -89,12 +89,7 @@ Symbols that tells the program to perform specific mathematical, relational or l
 
 Note: In Javascript below, AND is denoted by "&&", OR is denoted by "||", greater than is denoted by ">"
 
-var salt = 3;
-var paprika = 4;
-
-console.log(salt > 2 && b => 5);
-
-console.log(salt > 2 || b => 5);
+<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/logicaloperators?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Conditional Statements
 
@@ -102,17 +97,7 @@ A set of statements performed if a certain condition is met.
 
 **When water reaches boiling point, add rice to pot**
 
-var water_temp = 213;
-
-var pot = ""
-
-if (water_temp > 212) {
-	pot = "Add rice";
-}
-
-else {
-	pot = "Keep boiling";
-}
+<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/conditionalstaments?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Functions
 
@@ -120,16 +105,7 @@ These are sections of code which you can call to perform certain actions. Can in
 
 > **Chop garlic and onion into seven pieces**
 
-var garlic = 1;
-var onion = 1;
-
-function chop(item) {
-  return item / 7;
-}
-
-chop(garlic)
-
-chop(onion)
+<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/OutrageousCostlyConnection?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Loops
 
@@ -137,11 +113,4 @@ A sequence that is continually repeated until a certain condition is reached.
 
 > **Stir in onions, garlic, salt, rice and paprika in pot**
 
-var items = \[ "onions", "garlic", "salt", "rice", "paprika"];
-
-var i;
-
-for (i = 0; i < items.length; i++) {
-    // Print each item to the console
-    console.log("Stirring in " + items\[i]);
-}
+<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/AcademicSillyBotany?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
