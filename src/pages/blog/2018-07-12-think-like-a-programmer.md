@@ -105,7 +105,7 @@ These are sections of code which you can call to perform certain actions. Can in
 
 > **Chop garlic and onion into seven pieces**
 
-<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/OutrageousCostlyConnection?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/functionssample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Loops
 
@@ -113,4 +113,4 @@ A sequence that is continually repeated until a certain condition is reached.
 
 > **Stir in onions, garlic, salt, rice and paprika in pot**
 
-<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/AcademicSillyBotany?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/LoopSample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
