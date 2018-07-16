@@ -114,3 +114,20 @@ A sequence that is continually repeated until a certain condition is reached.
 > **Stir in onions, garlic, salt, rice and paprika in pot**
 
 <iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/LoopSample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+### The Similarities Between the Languages
+
+
+Just like Spanish, French and Italian have their similarities in language, so do the programming languages. 
+
+Let's take the same the loop, written in a language called Javascript, from above:
+
+<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/LoopSample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+This is the same loop written in a language called Python:
+
+<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/Loopsampleinpython?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+This is the same loop written in a language called Ruby:
+
+<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/LoopSampleinRuby?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
