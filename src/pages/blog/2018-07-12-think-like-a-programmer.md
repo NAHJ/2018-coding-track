@@ -1,6 +1,6 @@
 ---
 contentType: blog
-path: think-like-a-programmer
+path: /programming/think-like-a-programmer
 title: Think Like A Programmer
 date: '2018-07-12T00:36:28-04:00'
 attachments:
