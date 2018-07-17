@@ -1,19 +1,31 @@
-import React from 'react'
-import { Container } from 'reactstrap'
-import Helmet from 'react-helmet'
-import graphql from 'graphql'
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
+import Helmet from "react-helmet";
+import graphql from "graphql";
 
-export default function Template ({ data }) {
-  const { markdownRemark: post } = data
+export default function Template({ data }) {
+  const { markdownRemark: post } = data;
   return (
     <div>
-      <Helmet title={`${post.frontmatter.title} | ${data.site.siteMetadata.title}`} />
+      <Helmet
+        title={`${post.frontmatter.title} | ${data.site.siteMetadata.title}`}
+      />
       <Container>
-        <h1 className='display-3'>{post.frontmatter.title}</h1>
+        <Row>
+          <Col sm="12" md={{ size: 8, offset: 2 }}>
+            <h1 className="display-3">{post.frontmatter.title}</h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col
+            sm="12"
+            md={{ size: 8, offset: 2 }}
+            dangerouslySetInnerHTML={{ __html: post.html }}
+          />
+        </Row>
       </Container>
-      <Container dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>
-  )
+  );
 }
 
 export const aboutPageQuery = graphql`
@@ -31,4 +43,4 @@ export const aboutPageQuery = graphql`
       }
     }
   }
-`
+`;

@@ -1,5 +1,13 @@
 import React from "react";
-import { Container, Card, CardTitle, CardGroup, CardBody } from "reactstrap";
+import {
+  Container,
+  Col,
+  Row,
+  Card,
+  CardTitle,
+  CardGroup,
+  CardBody
+} from "reactstrap";
 import Helmet from "react-helmet";
 import graphql from "graphql";
 import { basename } from "path";
@@ -18,10 +26,19 @@ export default function Template({ data }) {
     <div>
       <Helmet title={`Blog | ${post.frontmatter.title}`} />
       <Container>
-        <h1 className="display-3">{post.frontmatter.title}</h1>
+        <Row>
+          <Col sm="12" md={{ size: 8, offset: 2 }}>
+            <h1 className="display-3">{post.frontmatter.title}</h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col
+            sm="12"
+            md={{ size: 8, offset: 2 }}
+            dangerouslySetInnerHTML={{ __html: post.html }}
+          />
+        </Row>
       </Container>
-
-      <Container dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>
   );
 }

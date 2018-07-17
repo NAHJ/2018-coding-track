@@ -1,11 +1,13 @@
 import React from "react";
 import {
   Container,
+  Col,
   Card,
   CardText,
   CardBody,
   CardTitle,
-  CardSubtitle
+  CardSubtitle,
+  Row
 } from "reactstrap";
 import Link from "gatsby-link";
 import graphql from "graphql";
@@ -18,19 +20,25 @@ const IndexPage = ({ data }) => {
   );
   return (
     <Container>
-      {posts.map(({ node: post }) => (
-        <Card style={{ marginBottom: 10 }} key={post.id}>
-          <CardBody>
-            <CardTitle>
-              <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-            </CardTitle>
-            <CardSubtitle style={{ marginBottom: 10 }}>
-              {post.frontmatter.date}
-            </CardSubtitle>
-            <CardText>{post.excerpt}</CardText>
-          </CardBody>
-        </Card>
-      ))}
+      <Row>
+        <Col sm="12" md={{ size: 8, offset: 2 }}>
+          {posts.map(({ node: post }) => (
+            <Card style={{ marginBottom: 10 }} key={post.id}>
+              <CardBody>
+                <CardTitle>
+                  <Link to={post.frontmatter.path}>
+                    {post.frontmatter.title}
+                  </Link>
+                </CardTitle>
+                <CardSubtitle style={{ marginBottom: 10 }}>
+                  {post.frontmatter.date}
+                </CardSubtitle>
+                <CardText>{post.excerpt}</CardText>
+              </CardBody>
+            </Card>
+          ))}
+        </Col>
+      </Row>
     </Container>
   );
 };
