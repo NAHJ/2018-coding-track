@@ -86,6 +86,33 @@ Now let's look at an example of control flow using an if/else statement. Remembe
 
 <iframe height="400px" width="100%" src="https://repl.it/@erikreyna/js-006?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
+Beautiful programs is more about concise and clear expression than it is about being clever. 9 times out of 10 you'll have teammates that will enjoy working on a codebase with you if you write clean and readable code, than if you write convoluted albeit extremely performant code.
 
+Ok, now that that's out of the way, let's expand a little on what we have learned so far. So far we have learned a little about:
 
-TODO: [OPERATORS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators "MDN - Expressions and Operators")
+- variables
+- control flow
+- strings
+- operators
+
+Let's expand a bit more on **variables**.
+
+You can store any data type into a variable. Wait. What? What is a data type? Well, it turns out that in JavaScript we have 5 primitives (6 really but more on this in the second session) and the object data type.
+
+- string
+- number
+- boolean
+- null
+- undefined
+- symbol
+- object
+
+String, as we have discussed, is a set of letters put together to mean something. Number, well, you guessed it, it's a number. Boolean refers to whether something is true or false. Null can be used to indicate a nonexistent value, it is generally used intentionally. Undefined is automatically declared for variables that have not been initialized, or for arguments that don't exist (more on this when we get to functions).
+
+I'm going to skip symbol here, since I think we need to really nail down basics and this might confuse some folks.
+
+I'm going to use the primitives to explain how the object data type works.
+
+<iframe height="400px" width="100%" src="https://repl.it/@erikreyna/js-007?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+Let's go ahead and look at this before running it, what do you the variable person will equal?
