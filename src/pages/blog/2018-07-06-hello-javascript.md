@@ -40,9 +40,9 @@ Here is an example of a statement in JavaScript.
 
 We'll get into what this all means in a second but what we are basically saying here is, hey, we have a, which equals 1, and b, which equals 2, now let's add them and store that total into c.
 
-We then print out (log) a phrase with that variable into the console.
+We then print out (console.log) a phrase with that variable into the console.
 
-All statements are comprised of expressions.
+All statements are comprised of _expressions_.
 
 What is an expression? An expression is any number, variable, identifier, and so on that can indicate to the JavaScript compiler that there is some meaning behind the character.
 
@@ -67,5 +67,25 @@ So looking at the example again, which one is correct?
 41! The multiplication goes first, then the addition, so b * c, then a + the total of b * c.
 
 In other words,  2 * 20 + 1, see how we moved the multiplication to the beginning?
+
+Now you may be thinking, well what does var mean here? var stands for variable, it's a keyword we can use to declare a name for a key.
+
+<iframe height="400px" width="100%" src="https://repl.it/@erikreyna/js-004?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+We're declaring a variable called firstName and another variable called lastName. We're then joining those to create a full name.
+
+This is an example of joining strings. A string is a set of letters in javascript.
+
+So far, we've been assigning a value to each variable, but what happens if we don't?
+
+<iframe height="400px" width="100%" src="https://repl.it/@erikreyna/js-005?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+**undefined**, makes sense right? We haven't defined what the variable will be or if we are grabbing it from somewhere, the program hasn't defined what it is. This is important to know because a huge part of programming is knowing what exists and what doesn't, it's what dictates *control flow*.
+
+Now let's look at an example of control flow using an if/else statement. Remember what I mentioned about syntax and grammar?
+
+<iframe height="400px" width="100%" src="https://repl.it/@erikreyna/js-006?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+
 
 TODO: [OPERATORS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators "MDN - Expressions and Operators")
