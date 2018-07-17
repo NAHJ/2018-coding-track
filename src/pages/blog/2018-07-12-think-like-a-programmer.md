@@ -131,3 +131,5 @@ This is the same loop written in a language called Python:
 This is the same loop written in a language called Ruby:
 
 <iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/LoopSampleinRuby?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+TO DO: Add/Figure out some hands-on examples 
