@@ -70,7 +70,7 @@ In other words,  2 * 20 + 1, see how we moved the multiplication to the beginnin
 
 Now you may be thinking, well what does var mean here? var stands for variable, it's a keyword we can use to declare a name for a key.
 
-<iframe height="400px" width="100%" src="https://repl.it/@erikreyna/js-004?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe class="repl-embed" height="400px" width="100%" src="https://repl.it/@erikreyna/js-004?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 We're declaring a variable called firstName and another variable called lastName. We're then joining those to create a full name.
 
@@ -78,13 +78,13 @@ This is an example of joining strings. A string is a set of letters in javascrip
 
 So far, we've been assigning a value to each variable, but what happens if we don't?
 
-<iframe height="400px" width="100%" src="https://repl.it/@erikreyna/js-005?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe class="repl-embed" height="400px" width="100%" src="https://repl.it/@erikreyna/js-005?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 **undefined**, makes sense right? We haven't defined what the variable will be or if we are grabbing it from somewhere, the program hasn't defined what it is. This is important to know because a huge part of programming is knowing what exists and what doesn't, it's what dictates *control flow*.
 
 Now let's look at an example of control flow using an if/else statement. Remember what I mentioned about syntax and grammar?
 
-<iframe height="400px" width="100%" src="https://repl.it/@erikreyna/js-006?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe class="repl-embed" height="400px" width="100%" src="https://repl.it/@erikreyna/js-006?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Beautiful programs is more about concise and clear expression than it is about being clever. 9 times out of 10 you'll have teammates that will enjoy working on a codebase with you if you write clean and readable code, than if you write convoluted albeit extremely performant code.
 
@@ -113,6 +113,6 @@ I'm going to skip symbol here, since I think we need to really nail down basics 
 
 I'm going to use the primitives to explain how the object data type works.
 
-<iframe height="400px" width="100%" src="https://repl.it/@erikreyna/js-007?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe class="repl-embed" height="400px" width="100%" src="https://repl.it/@erikreyna/js-007?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Let's go ahead and look at this before running it, what do you the variable person will equal?
