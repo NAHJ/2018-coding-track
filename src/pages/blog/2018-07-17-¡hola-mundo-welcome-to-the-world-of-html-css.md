@@ -44,9 +44,14 @@ HTML (Structures Your Content) + CSS (Makes Your Content Look Pretty) = Website.
 
 Ideally, your HTML and CSS files should be stored in the same folder with file names that DO NOT include spaces or special characters.
 
-\[Folder Structure imgs]
+![This is the HTML and CSS folder structure](/files/folder_structure.png)
+
 
 <iframe height="300px" width="100%" src="https://repl.it/@CarlaAstudillo/folderstructuresample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+For this class, we'll be using Repl.it code snippets so everyone can easily play around with the code. However, you actually write your code on a text editor. Any plain text editor will do: [TextEdit](https://support.apple.com/guide/textedit/welcome/mac), which comes with Macs, [Notepad](https://fileinfo.com/software/microsoft/notepad), which comes with Microsoft, [Sublime Text](https://www.sublimetext.com/) and [Atom](https://atom.io/) are all good choices.
+
+Then, save your code using the file extension of the type of markup, stylesheet or programming language you're writing. For example, save HTML files using the extension .html and save your CSS files using the extension .css
 
 ## The Anatomy of HTML Elements
 
@@ -261,27 +266,140 @@ Ordered lists (sequence)
 </ol>
 ```
 
-## TO DO: ADD IMGS
+**Div**
 
-## **Div**
-**Comment**
+Div tags define a section (division) in the web page. They can be used to be easily styled by CSS or manipulated by Javascript by adding the attribute ID or class. 
 
-## Connect the CSS to HTML
+```
+<div id="idName">This is a div with an id called "idName"</div>
+```
 
-* Inline
-* Embedded
-* Linked
+```
+<div class="className">This is a div with a class called "className"</div>
+```
 
-## CSS Syntax
+**Comments**
 
-* Declarations
-* Selector Elements
-* Properties
-  		- color
-  		- font-family
-  		- font-size
-  		- width
-  		- height
-* Selector IDs
-* Selector Classes
-* Cascading Rules
+Comments are only visible in the page's source code but not rendered by the browser, therefore invisible to users. It is used to add notification, reminders and documentation to your code for you or your fellow coders. It begins with <!–– and the comment closes with ––>.
+
+```
+<!-- This is a comment and not visible to users --><div class="className">This is visible</div>
+```
+
+## Mess Around with HTML
+
+<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/HTMLCSSexample1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+## Apply CSS (style!) to HTML
+
+Our HTML looks kind of plain and ugly, though. That's where CSS comes in.
+
+There are several ways to apply CSS and change the style and visual presentaion.
+
+**Inline**
+
+You can apply a unique style to a single HTML element using the style attribute.
+
+```
+<p style="color:blue;">This paragraph is blue</p>
+```
+
+**Internal or Embedded CSS**
+
+You can apply styles to several elements on the same page by adding CSS in a "style" element you can add the "head" section of your web page.
+
+```
+<!DOCTYPE html><html>
+<head>
+<style>
+body {background-color: green;}
+h1   {color: blue;}
+</style>
+</head>
+<body><h1></h1></body></html>
+```
+
+**External or Linked CSS**
+
+You can apply styles to several elements on the same HTML page (and style for many HTML pages) by linking to an external CSS file. You can add a link to the CSS file in the "head" section of your webpage.
+
+```
+<!DOCTYPE html><html>
+<head>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+```
+
+## To Recap:
+
+<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/HTMLCSSsample2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+## Anatomy of CSS
+
+Let's write some CSS.
+
+First, we point the HTML element we want to style using the **selector**. Let's style all of the paragraph elements in a page. We write a p selector (for paragraph element) and then add a left curly bracket.
+
+```
+p {
+```
+
+The curly bracket is the beginning of our **declaration block** where we're going to add a **declaration**.
+A declaration includes a CSS property name and a value, separated by a colon. It always ends with a semicolon.
+
+The declaration below turns all text in paragraph elements blue.
+
+```
+p {
+	color: blue;
+```
+
+We can add multiple declarations in a declaration block. The declarations below turns all all text in paragraph elements blue, enlargens all text to size of 24 px and adds bold to all text.
+
+```
+p {
+	color: blue;
+	font-size: 24px;
+	font-weight: bold;
+```
+
+Then, we close the declaration block with a right curly bracket.
+
+```
+p {
+	color: blue;
+	font-size: 24px;
+	font-weight: bold;
+}
+```
+
+## The Result:
+
+<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/HTMLCSSsample3?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+## CSS Properties
+
+**Color**
+
+text-color or color-background
+
+**Font-Family**
+
+**Font-Size**
+
+**Width**
+
+**Height**
+
+**Opacity**
+
+## CSS Selectors
+
+**IDs**
+
+**Classes**
+
+## Cascading Rules
+
+## Mess Around with CSS
