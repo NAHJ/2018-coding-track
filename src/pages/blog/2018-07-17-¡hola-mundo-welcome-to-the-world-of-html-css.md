@@ -190,13 +190,16 @@ The HTML tag contains the web page's content.
 The Head tag contains the title & meta information about the HTML document. Meta information is not displayed to the user, but does provide data used by search engines (like keywords or descriptions), defining a character set, or define a description for the website. It's also where the link element is used to link to external CSS style sheets.
 
 ```
-<!DOCTYPE html><html>
-<meta charset="UTF-8">
-<title>Title of the page</title>
-<meta name="description" content="This is a Web Page">
-<meta name="keywords" content="HTML, CSS">
-<meta name="author" content="Me">
-<link rel="stylesheet" href="mystyle.css">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Title of the page</title>
+    <meta name="description" content="This is a Web Page">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Me">
+    <link rel="stylesheet" href="mystyle.css">
+  </head>
 </html>
 ```
 
@@ -205,12 +208,15 @@ The Head tag contains the title & meta information about the HTML document. Meta
 The Body tag defines the page's body and contains the actual content of the page. Unlike the head, everything in the body is visible to the user.
 
 ```
-<!DOCTYPE html><html>
-<meta charset="UTF-8">
-<title>Title of the page</title>
-<body>
-This is the page's content.
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Title of the page</title>
+  </head>
+  <body>
+    This is the page's content.
+  </body>
 </html>
 ```
 
