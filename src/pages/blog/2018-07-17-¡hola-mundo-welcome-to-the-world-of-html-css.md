@@ -1,6 +1,6 @@
 ---
 contentType: blog
-path: hola-mundo-intro-html-css
+path: /programming/hola-mundo-intro-html-css
 title: ¡Hola Mundo! Welcome to the world of HTML + CSS
 date: '2018-07-17T00:32:52-04:00'
 attachments:
