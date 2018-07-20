@@ -97,19 +97,19 @@ And now we close using a **closing tag**. We once again write a less-than sign:
 However, this time, we follow it with a forward slash:
 
 ```
-<p>This is a paragraph<\
+<p>This is a paragraph</
 ```
 
 Next comes the word or character that defines the tag, in our case, the paragraph tag:
 
 ```
-<p>This is a paragraph<\p
+<p>This is a paragraph</p
 ```
 
 And finally, we finish closing it with a greater than sign:
 
 ```
-<p>This is a paragraph<\p>
+<p>This is a paragraph</p>
 ```
 
 Ta-da! We wrote an HTML element.
@@ -125,7 +125,7 @@ This is just one example of an HTML element, of course. There are many other one
 An element can either be a container element which contains content.
 
 ```
-<p>This is a paragraph<\p>
+<p>This is a paragraph</p>
 ```
 
 Or a standalone element which is an element that's closed and cannot contain anything else.
@@ -148,7 +148,7 @@ Values are what's assigned to a given attribute. These are placed inside quotati
 Example: 
 
 ```
-<p class='className'>This is a paragraph<\p>
+<p class='className'>This is a paragraph</p>
 ```
 
 Above, the attribute is "class" and the value is "className"
