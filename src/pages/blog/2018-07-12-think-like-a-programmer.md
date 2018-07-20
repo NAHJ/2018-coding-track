@@ -20,8 +20,6 @@ This looks way more terrifying than it actually is.
 
 The truth is you probably already can think like a programmer and probably don't even realize it.
 
-
-
 ![You're a Programmer and you didn't know it](/files/programmer.jpg)
 
 Simply put, programming, or **writing code**, is how you tell a computer to perform a certain action-- like an instruction manual.
@@ -117,7 +115,6 @@ A sequence that is continually repeated until a certain condition is reached.
 
 ### The Similarities Between the Languages
 
-
 Just like Spanish, French and Italian have their similarities in language, so do the programming languages. 
 
 Let's take the same the loop, written in a language called Javascript, from above:
@@ -132,4 +129,22 @@ This is the same loop written in a language called Ruby:
 
 <iframe class="repl-embed" height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/LoopSampleinRuby?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-TO DO: Add/Figure out some hands-on examples 
+## More Hands-On Examples
+
+Explain the following code examples into human language:
+
+**PYTHON**
+
+<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/ThinklikeaProgrammer1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe> 
+
+**JAVASCRIPT**
+
+<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/ThinkLikeaProgrammer2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+**PYTHON**
+
+<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/ThinkLikeAProgrammer3?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+**LOLCATS**
+
+<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/lolcatssample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
