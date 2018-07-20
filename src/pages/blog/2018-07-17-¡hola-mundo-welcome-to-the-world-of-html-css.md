@@ -139,6 +139,10 @@ Or a standalone element which is an element that's closed and cannot contain any
 
 Attributes provide additional information about an element-- like a class, ID, title, or style. These are placed inside the opening tag before the "more than" sign.
 
+```
+<p class='className'
+```
+
 **Values** 
 
 Values are what's assigned to a given attribute. These are placed inside quotation marks.
