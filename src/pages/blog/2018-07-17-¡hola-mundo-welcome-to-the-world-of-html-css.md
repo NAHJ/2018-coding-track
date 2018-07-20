@@ -60,58 +60,80 @@ This is markup that tells you that this is an HTML **element**.
 
 First, we have an opening tag which we write a less-than sign:
 
-`<`
+```
+<
+```
 
 Followed by a word or character that defines the tag:
 
-`p`
+```
+p
+```
 
 The "p" above defines the tag as a paragraph tag. Then we close it with a greater-than sign:
 
-`>`
+```
+>
+```
 
 So we put it all together and we get the **opening tag** of a paragraph:
 
-`<p>`
+```
+<p>
+```
 
 We can now add whatever content we want to put inside this paragraph tag.
 
-`<p>This is a paragraph`
+```
+<p>This is a paragraph
+```
 
 And now we close using a **closing tag**. We once again write a less-than sign:
 
-`<p>This is a paragraph<`
+```
+<p>This is a paragraph<
+```
 
 However, this time, we follow it with a forward slash:
 
-`<p>This is a paragraph<\`
+```
+<p>This is a paragraph<\
+```
 
 Next comes the word or character that defines the tag, in our case, the paragraph tag:
 
-`<p>This is a paragraph<\p`
+```
+<p>This is a paragraph<\p
+```
 
 And finally, we finish closing it with a greater than sign:
 
-`<p>This is a paragraph<\p>`
+```
+<p>This is a paragraph<\p>
+```
 
 Ta-da! We wrote an HTML element.
 
 This is just one example of an HTML element, of course. There are many other ones which we will talk about below.
 
-`<div>This is a div element</div>
-
-<body>This is a body element</body>
+```
+<div>This is a div element</div><body>This is a body element</body>
 <h1>This is a heading element</h1>
-<ul><li>This is a list element</li></ul>`
+<ul><li>This is a list element</li></ul>
+```
 
 An element can either be a container element which contains content.
 
-`<p>This is a paragraph<\p>`
+```
+<p>This is a paragraph<\p>
+```
 
 Or a standalone element which is an element that's closed and cannot contain anything else.
 
-`<br/>
-<img/>`
+```
+<br/>
+<img/>
+```
 
 **Attributes** 
 
@@ -125,7 +147,9 @@ Values are what's assigned to a given attribute. These are placed inside quotati
 
 Example: 
 
-`<p class='className'>This is a paragraph<\p>`
+```
+<p class='className'>This is a paragraph<\p>
+```
 
 Above, the attribute is "class" and the value is "className"
 
@@ -139,18 +163,22 @@ The doctype is found at the top of the HTML page and tells the browser which ver
 
 For HTML 5 (the latest):
 
-`<!DOCTYPE html>`
+```
+<!DOCTYPE html>
+```
 
 HTML 4.01 Frameset:
 
-`<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">`
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+```
 
 **HTML**
 
 The HTML tag contains the web page's content.
 
 ```
-<!DOCTYPE html><html>
+<!DOCTYPE html><html>WEB PAGE CONTENT</html>
 ```
 
 **Head**
