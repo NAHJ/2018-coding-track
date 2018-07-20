@@ -46,7 +46,7 @@ Ideally, your HTML and CSS files should be stored in the same folder with file n
 
 ![This is the HTML and CSS folder structure](/files/folder_structure.png)
 
-<iframe height="300px" width="100%" src="https://repl.it/@CarlaAstudillo/folderstructuresample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe class="repl-embed" height="300px" width="100%" src="https://repl.it/@CarlaAstudillo/folderstructuresample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 For this class, we'll be using Repl.it code snippets so everyone can easily play around with the code. However, you actually write your code on a text editor. Any plain text editor will do: [TextEdit](https://support.apple.com/guide/textedit/welcome/mac), which comes with Macs, [Notepad](https://fileinfo.com/software/microsoft/notepad), which comes with Microsoft, [Sublime Text](https://www.sublimetext.com/) and [Atom](https://atom.io/) are all good choices.
 
@@ -360,7 +360,7 @@ You can apply styles to several elements on the same HTML page (and style for ma
 
 ## To Recap:
 
-<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/HTMLCSSsample2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe class="repl-embed" height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/HTMLCSSsample2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Anatomy of CSS
 
@@ -733,4 +733,4 @@ I KNOW! I KNOW! CSS can be confusing and frustrating. Even I struggle with casca
 
 ## Mess Around with CSS
 
-<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/Lets-Play-with-HTML-AND-CSS?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe class="repl-embed" height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/Lets-Play-with-HTML-AND-CSS?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
