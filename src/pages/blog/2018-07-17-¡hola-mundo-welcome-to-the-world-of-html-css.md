@@ -46,7 +46,6 @@ Ideally, your HTML and CSS files should be stored in the same folder with file n
 
 ![This is the HTML and CSS folder structure](/files/folder_structure.png)
 
-
 <iframe height="300px" width="100%" src="https://repl.it/@CarlaAstudillo/folderstructuresample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 For this class, we'll be using Repl.it code snippets so everyone can easily play around with the code. However, you actually write your code on a text editor. Any plain text editor will do: [TextEdit](https://support.apple.com/guide/textedit/welcome/mac), which comes with Macs, [Notepad](https://fileinfo.com/software/microsoft/notepad), which comes with Microsoft, [Sublime Text](https://www.sublimetext.com/) and [Atom](https://atom.io/) are all good choices.
@@ -380,26 +379,339 @@ p {
 
 ## CSS Properties
 
+# CSS Properties
+
 **Color**
 
-text-color or color-background
+This property sets the color of the text in an element. Can be specified by writing out the color names for certain colors (blue) or through a hexadecimal value which includes a nunber sign (#) followed by 6 digits of either numbers or letters. You can use [Color Picker](https://www.webpagefx.com/web-design/color-picker/) to figure out a color's hex value.
+
+```
+p {
+	color: blue;
+}
+h2 {
+	color: #C390D4;
+}
+```
+
+
+You can also set the color using an rgb (red, green, and blue) or rgba (red, green, blue, opacity) value, as well as HSL (hue, saturation and lightness) values.
+
+```
+body {
+	color: rgb(201, 76, 76);
+}
+body {
+	color: rgba(201, 76, 76, 0.6);
+}
+body {
+	color: hsl(89, 43%, 51%);
+}
+```
+
+While the property "color" sets the color of the text, background-color specifies the color of the background.
+
+```
+body {
+	background-color: #7FFFD4;
+	color: #A52A2A;
+}
+```
 
 **Font-Family**
 
+This property sets the font of the text. You can input specific font family names or a generic name. You can add several fonts to the property separated by commas as a "fallback"– if the browswer does not support the first font, it tries the next font. Note: any multi-word font family names must be quotation marks. A list of web safe fonts that pre-installed in every operating system can be found [here](https://www.w3schools.com/cssref/css_websafe_fonts.asp)
+
+```
+body {
+    font-family: Arial, Helvetica, "Times New Roman", sans-serif;
+}
+```
+
 **Font-Size**
 
-**Width**
+This property sets the size of the font. You can set it using pixels, "em" (which is a scalable unit compared to the current font-size) or percentage (which sizes text compared to the percentage of the current font-size)
 
-**Height**
+```
+div.a {
+    font-size: 15px;
+}
+div.b {
+    font-size: 2em;
+}
+div.c {
+    font-size: 150%;
+}
+```
+
+**Font-Weight**
+
+You can make your font bold. You can also make it lighter to the inherited font. You can also manipulate it using a value between 100 and 900 (with former being the lightest and the latter being the boldest)
+
+```
+div.a {
+    font-weight: bold;
+}
+div.b {
+    font-weight: lighter;
+}
+div.c {
+    font-weight: 600;
+}
+```
+
+**Font-Style**
+
+You can change your font-style to make it look italicsized. 
+
+```
+div.a {
+    font-style: italic; 
+}
+div.b {
+    font-style: normal; 
+}
+div.c {
+    font-style: oblique; 
+}
+```
+
+**A Shorthand Tip!**
+
+```
+p {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+```
+
+AND 
+
+```
+p {
+  font: italic bold 10px sans-serif;
+}
+```
+
+ARE THE EXACT SAME THING AND BOTH WORK.
+
+**Width & Height**
+
+You can set the width and height of an element also using pixels and percentage. You can also set the maximum and minimum widths and heights for the element.
+
+```
+div {
+    height: 100px;
+    width: 500%;
+    max-height: 600px;
+    min-width: 120px; 
+    background-color: red;
+}
+```
+
+**Padding, Margin, and Borders**
+
+You can set the padding, margins and borders of an element also using pixels. The padding is the space inside the element between the content and the border while the margins are the space outside the border.
+
+The properties for all of them have four values.
+
+```
+div {
+    padding:10px 5px 15px 20px;
+}
+```
+
+In the above example:
+
+The top padding is 10px
+The right padding is 5px
+The bottom padding is 15px
+The left padding is 20px
+
+If the padding/margin/borders are all the same for all values, you can use one value to specify the four sides.
+
+```
+div {
+    padding:10px;
+}
+```
+
+For borders, you can change the width using the same concept. In addition, you can change the color and style (dotted, solid, dashed) of the border. 
+
+```
+div {
+    border-color: #A1D490;
+    border-width: 2px;
+    border-style: dashed;
+}
+```
+
+You can also use shorthand with this. 
+
+```
+div {
+    border: 2px dashed #A1D490;
+}
+```
 
 **Opacity**
 
+You can set the transparency of an element by adding a number from 0 (invisible) to 1 (completely visible).
+
+```
+div {
+    opacity: 0.5;
+}
+```
+
+**Position Selectors**
+
+Position selectors look specifically for elements inside other elements. The example below applies to only h2 elements inside a paragraph element.
+
+```
+p h2 {
+  color: blue;
+}
+```
+
+**Comments**
+
+You can also comment on your CSS without it being visible to the users. The content inside `/* */` will not be interpreted.
+
+```
+p {
+  font-size: 12px  /* This is a CSS comments that's not visible. */
+}
+```
+
 ## CSS Selectors
+
+We can also apply properties to specific selector we label with unique IDs or classes (so that we don't repeat CSS code over and over). 
 
 **IDs**
 
+Used to apply to one element on the webpage. Use "#" to tell the CSS that it's an ID.
+
+Remember the div that we gave an id in the HTML section. 
+
+```
+<div id="idName">This is a div with an id called "idName"</div>
+```
+
+We're going to add some CSS to it.
+
+```
+#idName {
+	padding-top: 10px;
+	border: 1px solid red;
+	color: blue;
+	background-color: green;
+	}
+```
+
 **Classes**
+
+Used to apply to multiple elements. Use "." to tell the CSS that's it's a class.
+
+Remember the div that we gave a class in the HTML section. 
+
+```
+<div class="className">This is a div with a class called "className"</div>
+```
+
+We're going to add some CSS to it.
+
+```
+.className {
+	margin-bottom: 10px;
+	border: 1px solid orange;
+	color: yellow;
+	background-color: green;
+	}
+```
 
 ## Cascading Rules
 
+So there's a reason that they're called cascading style sheets– they cascade down until we say otherwise with CSS.
+
+Example:
+
+```
+
+p{
+  color:blue;
+  font-family: 'Helvetica';
+}
+.red {
+  color: red;
+}
+#special {
+  font-family: Arial;
+}
+```
+
+
+
+```
+<p>A paragraph with text color blue and font Helvetica</p>
+<p class="red">A paragraph with text color red and font Helvetica</p>
+<p class= "red" id ="special">A paragraph with text color red and font Arial</p>
+
+```
+
+If you don't specify a specific element inside another element to have a certain style, then the element will _inherit_ the CSS rule.
+
+```
+body {
+  color:blue;
+}
+```
+
+
+
+```
+<body><p>This paragraph element (the child) will inherit CSS rules assigned to the body element (the parent). Hence, the text color is blue.</p>
+</body>
+```
+
+The more specific you can get, the higher the priority.
+
+This: 
+
+```
+.main .sale .clearance p { 
+  color: red;
+}
+```
+
+Would have a higher priority than this:
+
+```
+.footer p {
+  color: blue;
+}
+```
+
+However, the lower the rule is in the CSS, the higher the priority. As in, rules lower in the file may overule the higher. For example, this h1 element in example below has green text.
+
+```
+h1 {
+	color: red;
+}
+h1 {
+	color: blue;
+}
+h1 {
+	color: green;
+}
+```
+
+<div style="width:100%;height:0;padding-bottom:55%;position:relative;"><iframe src="https://giphy.com/embed/yYSSBtDgbbRzq" width="100%" height="90%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+
+I KNOW! I KNOW! CSS can be confusing and frustrating. Even I struggle with cascading rules, so it's important to write clean and readable code.
+
 ## Mess Around with CSS
+
+<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/Lets-Play-with-HTML-AND-CSS?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
