@@ -734,23 +734,3 @@ I KNOW! I KNOW! CSS can be confusing and frustrating. Even I struggle with casca
 ## Mess Around with CSS
 
 <iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/Lets-Play-with-HTML-AND-CSS?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
-## More Hands-On Examples
-
-Explain the following code examples into human language:
-
-**PYTHON**
-
-<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/ThinklikeaProgrammer1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe> 
-
-**JAVASCRIPT**
-
-<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/ThinkLikeaProgrammer2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
-**PYTHON**
-
-<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/ThinkLikeAProgrammer3?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
-**LOLCATS**
-
-<iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/lolcatssample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
