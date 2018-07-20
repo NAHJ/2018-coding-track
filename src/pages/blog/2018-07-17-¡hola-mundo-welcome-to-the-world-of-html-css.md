@@ -377,8 +377,6 @@ p {
 
 <iframe height="400px" width="100%" src="https://repl.it/@CarlaAstudillo/HTMLCSSsample3?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-## CSS Properties
-
 # CSS Properties
 
 **Color**
@@ -393,7 +391,6 @@ h2 {
 	color: #C390D4;
 }
 ```
-
 
 You can also set the color using an rgb (red, green, and blue) or rgba (red, green, blue, opacity) value, as well as HSL (hue, saturation and lightness) values.
 
@@ -639,7 +636,6 @@ So there's a reason that they're called cascading style sheets– they cascade d
 Example:
 
 ```
-
 p{
   color:blue;
   font-family: 'Helvetica';
@@ -652,13 +648,10 @@ p{
 }
 ```
 
-
-
 ```
 <p>A paragraph with text color blue and font Helvetica</p>
 <p class="red">A paragraph with text color red and font Helvetica</p>
 <p class= "red" id ="special">A paragraph with text color red and font Arial</p>
-
 ```
 
 If you don't specify a specific element inside another element to have a certain style, then the element will _inherit_ the CSS rule.
@@ -668,8 +661,6 @@ body {
   color:blue;
 }
 ```
-
-
 
 ```
 <body><p>This paragraph element (the child) will inherit CSS rules assigned to the body element (the parent). Hence, the text color is blue.</p>
