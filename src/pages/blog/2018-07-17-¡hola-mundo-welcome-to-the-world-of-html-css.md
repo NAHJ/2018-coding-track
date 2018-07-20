@@ -215,7 +215,7 @@ This is the page's content.
 The paragraph tag allows you to format content like paragraphs.
 
 ```
-<p>Paragraph 1</p>        <p>Paragraph 2</p><p>Paragraph 3</p>
+<p>Paragraph 1</p><p>Paragraph 2</p><p>Paragraph 3</p>
 ```
 
 **Bold**
