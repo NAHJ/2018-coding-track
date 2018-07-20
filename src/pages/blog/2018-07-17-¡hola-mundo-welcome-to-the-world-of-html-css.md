@@ -346,14 +346,22 @@ You can apply a unique style to a single HTML element using the style attribute.
 You can apply styles to several elements on the same page by adding CSS in a "style" element you can add the "head" section of your web page.
 
 ```
-<!DOCTYPE html><html>
-<head>
-<style>
-body {background-color: green;}
-h1   {color: blue;}
-</style>
-</head>
-<body><h1></h1></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: green;
+      }
+      h1 {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1></h1>
+  </body>
+</html>
 ```
 
 **External or Linked CSS**
@@ -361,10 +369,11 @@ h1   {color: blue;}
 You can apply styles to several elements on the same HTML page (and style for many HTML pages) by linking to an external CSS file. You can add a link to the CSS file in the "head" section of your webpage.
 
 ```
-<!DOCTYPE html><html>
-<head>
-<link rel="stylesheet" href="index.css">
-</head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+  </head>
 <body>
 ```
 
